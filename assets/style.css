@@ -92,14 +92,15 @@ input,select,textarea {
 
 .sobre-title {
     display: flex;
+    margin-left: 400px;
 }
 
 .sobre-info {
     display: flexbox;
-    font-weight: 700;
+    text-align: justify;
+    font-weight: 800;
     font-size: 52px;
     color: #464646;
-    margin: 10px 24px 10px 24px;
     margin-bottom: 24px;
 }
 
@@ -109,23 +110,8 @@ input,select,textarea {
     font-size: 22px;
     color: #464646;
     margin-bottom: 26px;
-}
-
-.sobre-links {
-    display: flex;
-    list-style: none;
+    padding: 10px 400px 10px 400px;
     flex-wrap: wrap;
-
-}
-
-.sobre-link {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.sobre-link a {
-    color: #464646;
-    text-decoration: none;
 }
 
 .arrow {
