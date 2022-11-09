@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Christian Alencar | SS</title>
+</head>
+
+    <body>
+
+      <header class="header">
+        <div class="logo-wraper">
+          <img src="assets/img/icons8-dead-by-daylight-120.png" alt="logo">
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-items">
+            <li class="navbar-item"><a href="#home">Home</a></li>
+            <li class="navbar-item"><a href="#sobre">Sobre</a></li>
+            <li class="navbar-item"><a href="#form">Formulário</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+        <section id="home">
+          <div class="container">
+              <div class="column-left">
+                  <h1>Só projetos incríveis</h1>
+                  <p>
+                      Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
+                  </p>
+                  <a id="CTA-button" href=#form>Vamos começar agora ?</a>
+              </div>
+              <div class="column-right">
+                  <img src="assets/img/imagem-dev-1.gif" alt="imagem" id="home-image">
+              </div>
+          </div>
+        </section>
+
+        <section id="sobre">
+          <div class="sobre-info">
+            <h2 class="sobre-title">Olá, Eu sou Christian Alencar</h2>
+            <h3 class="sobre-desc">Sou formado em Logística Internacional no CIESA-AM na qual atuei por 10 anos, atuando como Fotografo Ensaios Feminino desde 2010
+               e neste ano de 2022 resolvi mudar o meu rumo é ir para começar atual na area de Ciência de Dados/Analista de Dados na Estácio.</h3>
+            <h3 class="sobre-desc">Estou aqui para lhe ajudar com o seu objetivo de uma página na web ou lading page.</h3>
+
+            <h4 class="sobre-desc">Aqui um pouco mais sobre os meus trabalhos e sobre mim.</h4> 
+            <ul class="sobre-links">
+                <li class="sobre-link"><a href="https://github.com/christianalencar" target="_blank">Github<img src='assets/img/arrow.png' alt='arrow' class='arrow' /></a></li>
+                <li class="sobre-link"><a href="https://www.linkedin.com/in/christianalencar/" target="_blank">Linkedin<img src='assets/img/arrow.png' alt='arrow' class='arrow' /></a></li>
+                <li class="sobre-link"><a href="https://www.instagram.com/christianalencarfotografo/" target="_blank">Instagram<img src='assets/img/arrow.png' alt='arrow' class='arrow' /></a></li>
+            </ul>    
+          </div>
+        </section>
+
+        <form id="form" action="http://google.com">
+
+            <section>
+                <h2>Formulário de Interesses</h2>
+                <p>Digite seu nome:
+                    <input type="text" name="userName" size=40 maxlength=40 placeholder="Digite seu nome completo">
+                </p>
+                <p>Digite sua profissão:
+                    <input type="text" name="userJob" size=40 maxlength=40 placeholder="Digite sua profissão">
+                </p>
+                <p>Nos conte um pouquinho sobre você:
+                    <textarea name="userComment" cols="30" rows="4"></textarea>
+                </p>
+                <p>Você faz exercícios regularmente?
+                    <input type="radio" name="exercise" value=1>Sim
+                    <input type="radio" name="exercise" value=2>Não
+                </p>
+                <p>Por onde você lê sobre seus tópicos favoritos?
+                    <input type="checkbox" name="Books">Livros
+                    <input type="checkbox" name="Web">Sites
+                    <input type="checkbox" name="Apps">Aplicativos
+                    <input type="checkbox" name="Magazines">Revistas
+                </p>
+                <p>Qual gênero de filmes que você prefere?
+                    <select name="moviePref">
+                        <option></option>
+                        <option value=1>Comédia</option>
+                        <option value=2>Romance</option>
+                        <option value=3>Drama</option>
+                        <option value=4>Terror</option>
+                        <option value=5>Ação</option>
+                    </select>
+                </p>
+                <input id="form-button" type=submit value="ENVIAR">
+            </section>
+        </form>
+
+        <footer class="footer-section">
+            <small class="footer-name">Desenvolvido por Christian Alencar</small>
+            <small class="footer-year">2022</small>
+        </footer>
+
+    </body>
+
+</html>
