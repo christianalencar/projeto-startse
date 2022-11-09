@@ -12,7 +12,7 @@
 
 09/11/2022:<br>
 :red_circle: Primeiro commit;<br>
-:red_circle: Faltando ajuste no alinhamento do "Sobre".
+:red_circle: Alinhamentos das informações;
            
 Status:<br>
-:clock10: Em trabalho para finalização
+:clock10: Parcialmente finalizado, ajuste de cores.
